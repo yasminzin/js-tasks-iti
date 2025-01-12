@@ -1,0 +1,48 @@
+input {
+  margin: 5px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  width: 50%;
+}
+
+button {
+  margin: 5px 5px 20px 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  width: 50%;
+  cursor: pointer;
+}
+
+.td-created {
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+}
+
+table {
+  width: 50%;
+}
+
+table,
+table tr,
+table td,
+table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.age-required,
+.name-required {
+  color: red;
+  margin: 0px 0px 0px 5px;
+  width: 50%;
+  color: red;
+  height: 1px;
+}

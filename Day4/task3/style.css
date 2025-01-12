@@ -1,0 +1,20 @@
+* {
+    margin: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #output {
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+  }
+  

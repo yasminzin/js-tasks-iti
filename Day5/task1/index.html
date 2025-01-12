@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <input type="text" placeholder="Enter Student Name" onblur="changeColorBlur(event)" onfocus="changeColorFocus(event)"/>
+    <p class="name-required"></p>
+    <br />
+    <input type="text" placeholder="Enter Student Age" onblur="changeColorBlur(event)" onfocus="changeColorFocus(event)" />
+    <p class="age-required"></p>
+    <br />
+    <button onclick="addStudent(event)">Add Student</button>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</<th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+    </table>
+    <script src="./main.js"></script>
+  </body>
+</html>

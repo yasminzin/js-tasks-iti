@@ -1,0 +1,30 @@
+.circle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: gray;
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+}
+
+#sign {
+  text-align: center;
+  height: 30px;
+  margin: auto;
+  font-weight: bold;
+}

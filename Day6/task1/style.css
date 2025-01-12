@@ -1,0 +1,32 @@
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+table {
+  margin: 10px;
+}
+
+table td,
+table th {
+  padding: 5px;
+}
+
+#user-details {
+  display: none;
+  margin: 10px;
+  width: 500px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#details {
+  color: blue;
+  cursor: pointer;
+}

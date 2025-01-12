@@ -1,0 +1,60 @@
+* {
+  margin: 10px;
+}
+
+.img-container {
+  width: 70%;
+  height: 600px;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  margin: auto;
+  display: none;
+}
+
+img#starter {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin: 0 30px;
+  color: white;
+  border-radius: 10px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#prev,
+#next {
+  background-color: orange;
+  border-radius: 10px;
+}
+
+#play {
+  background-color: green;
+}
+
+#stop {
+  background-color: red;
+}
+
+#prev:hover,
+#next:hover,
+#play:hover,
+#stop:hover {
+  background-color: black;
+}
